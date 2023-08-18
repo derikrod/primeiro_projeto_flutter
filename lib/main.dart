@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 37, 161, 43)),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'Primeiro App'),
     );
   }
 }
@@ -109,7 +109,7 @@ class _MyHomePageState extends State<MyHomePage> {
               'Meu primeiro app em Flutter',style: TextStyle(color: Color.fromARGB(255, 26, 16, 59),fontSize: 20),
             ),
             const Text(
-              'Cotador de clicks:',style: TextStyle(color: Color.fromARGB(255, 26, 16, 59),fontSize: 20),
+              'Contador de cliques:',style: TextStyle(color: Color.fromARGB(255, 26, 16, 59),fontSize: 20),
             ),
             Text(
               '$_counter',
